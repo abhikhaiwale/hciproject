@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <STYLE>
+        *{
+            box-sizing: border-box;
+        }
+        .navhead{
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+            background-color:#232A34 ;
+            box-shadow: 10px 12px 12px rgba(0,0,0,0.4);
+        }
+        .navbuttons{
+            display: flex;
+        }
+        .samebutton{
+            padding: 8px;
+            margin-right: 5px;
+            background-color: #232A34;
+            color: white;
+            font-weight: bold;
+            list-style-type: none;
+        }
+        .headersym{
+            display: flex;
+        }
+        .carlogo{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 14px;
+        }
+        .headerstyl{
+            margin: 0;
+            color: white;
+        }
+        .contentcontainer{
+            border-radius: 10%;
+            display: flex;
+            flex: row nowrap;
+            max-width: 1200px;
+            padding:75px;
+            margin: 0 auto;
+            margin-top: 180px;
+        }
+        .carparking{
+            max-width: 100%;
+            border-radius: 40%;
+            box-shadow: 10px 12px 12px rgba(0,0,0,0.4);
+        }
+        .mainpara{
+            font-family: 'Girassol', cursive;      
+        }
+        .contentbox{
+            margin-left: 20px;
+        }
+        .pricing{
+            text-align: center;
+            font-family: 'Baloo Paaji 2', cursive;
+            background-color: #232A34;
+            color: white;
+            padding:8px;
+            margin-top:210px;
+            margin-bottom: 180px;
+        }
+        .pricingcontent{
+            display: flex;
+            max-width: 1200px;
+            justify-content: space-evenly;
+            padding: 75px;
+            margin: 0 auto;
+            margin-bottom: 180px;
+
+        }
+       .pricebox {
+            background-color:transparent;
+            font-size: larger;
+            padding: 20px;
+            width: 245px;
+            border: 1px solid;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+        }
+        .pricebox li{
+            padding: 5px;
+            border-bottom: 0.4px dotted gray;
+            margin: 25px;
+            list-style-type: none;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .button{
+            background-color: yellow;
+            color: black;
+            font-size: large;
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            border-radius: 8px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+
+    </STYLE>
+    
+    <title>Document</title>
+</head>
+<body>
+    <!--NAV BAR AND ALL STARTS HERE-->
+
+    <div class="navhead">
+<div class="headersym">
+
+    <img class="carlogo"src="https://images.pexels.com/photos/2631489/pexels-photo-2631489.jpeg?cs=srgb&dl=orange-sports-coupe-2631489.jpg&fm=jpg" alt="car">
+    <h1 class="headerstyl"style="font-family: 'Baloo Paaji 2', cursive;">ONLINE CAR PARKING</h1>
+
+</div>
+    <ul class="navbuttons">
+
+        <li class="samebutton">HOME</li>
+        <li class="samebutton">LOGIN</li>
+        <li class="samebutton">PRICING</li>
+        <li class="samebutton">CUSTOMERS</li>
+        <li class="samebutton">CONTACT US</li>
+    </ul>
+</div>
+
+<!--MAIN CONTENT OF PAGE STARTS HERE-->
+
+<div class="contentcontainer">
+
+    <img class="carparking" src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?cs=srgb&dl=mercedes-benz-parked-in-a-row-164634.jpg&fm=jpg" alt="car parking">
+    
+        <div class="contentbox">
+            <h2 style="font-family: 'Girassol', cursive;">CAR PARKING</h2>
+            <p class="mainpara">one of India’s largest and most prominent conglomerates in the electrical industry has a noteworthy presence in more than 80 countries across the world. Head Quartered in Mumbai, we manufacture products ranging from Cables & Wires, Busducts, Electricals and Electromechanical Parking Solutions.
+
+                As the country grows so does the population putting an incredible amount of strain on present day infrastructure,  this includes safe and easy parking solutions. This is where RR Parkon comes in.  RR Parkon is the first company to build an Automated Multilevel car parking system, a revolutionaryparking concept solves parking problems by maximizing parking capacity in minimum space. Started in the year 2001, RR Parkon has gained popularity over the years making it one of the most respectable and the largest car parking companies in the industry, with over 1500 completed projects in India and a global outlook servicing clients in Nepal, Myanmar, Uganda & Sri Lanka.
+                </p>
+        </div>
+</div>
+
+<!--PRICING SECTION STARTS HERE-->
+
+<div class="pricing">
+    <h1 class="priceheading">PRICING</h1>
+</div>
+<div class="pricingcontent">
+    <ul class="pricebox">
+        <li style="font-size:x-large;margin-bottom: 15px;background-color:black;color:white;">PER HOUR</li>
+        <li>Rs 50/Hour</li>
+        <li>Malls,Bussiness Park</li>
+        <button class="button">BUY</button>
+    </ul>
+    <ul class="pricebox">
+        <li style="margin-bottom: 15px;background-color:black;color:white;">PER DAY</li>
+        <li>Rs 400/Day</li>
+        <li>Malls,Bussiness Park,Office</li>
+        <button class="button">BUY</button>
+    </ul>
+    <ul class="pricebox">
+        <li style="margin-bottom: 15px;background-color:black;color:white;">CUSTOM PLANS</li>
+        <li>Starting Rs 100/hour</li>
+        <li>Custom Locations</li>
+        <button class="button">CONTACT US</button>
+    </ul>
+</div>
+
+<!--CUSTOMER SECTION STARTS HERE-->
+
+</body>
+</html>
